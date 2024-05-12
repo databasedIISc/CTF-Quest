@@ -1,0 +1,7 @@
+Through simple trial-and-error, we find that the offset is +6. Just subtract 6 (with wraparound) from each letter, and you get the answer.
+
+The problem was-
+Znoy iovnkx ullkxy tkdz zu tu ykiaxoze. Tu cutjkx Igkygx cgy gyygyotgzkj. Znk lrgm oy {IXUYY_ZNK_XAHOIUT}
+
+The final answer is -
+This cipher offers next to no security. No wonder Caesar was assasinated. The flag is {CROSS_THE_RUBICON}

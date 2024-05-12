@@ -1,0 +1,15 @@
+What the sender did was write the message in a grid with 10 columns and 16 rows, and just rotate it 90 degrees, so that the ciphertext was in a 16x10 grid. To get the plaintext, rotate it back.
+
+    TTI. TEE R T G _
+    HRO AAGVCETIE {A
+    IANI TREA ROXCMR
+    SN TGEERNCANCOAE
+     SCSRDE  ONSHLT_
+    IPI I STBMS AURC
+    SOPJD9.HEPPLNMIO
+     SHU 0HE LOIGNCO
+    AIESR ORMESKISEL
+     TRTODWEOXIEN.S}
+
+The solution is-
+ THIS IS A TRANSPOSITION CIPHER. ITS JUST A GRID ROTATED 90 DEGREES. HOWEVER THERE CAN BE MORE COMPLEX TRANSPOSITIONS LIKE EXCHANGING COLUMNS. {MATRICES_ARE_COOL}% 

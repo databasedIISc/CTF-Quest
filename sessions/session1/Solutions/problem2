@@ -1,0 +1,9 @@
+An easy way to crack this one is by trying to guess common words. For example, 'Q' appears on its own frequently in the ciphertext, so it can be the word 'a'. Similarly, 'ZIT' can be 'THE'.
+This way, more and more of the plaintext is revealed, and it becomes easier to guess more words, until the entire ciphertext is cracked.
+Frequency analysis, which involves finding the frequency of each letter in the ciphertext and comparing that with the usual frequency of letters in common English text, may help here.
+
+The problem was- 
+ZIOL LXWLZOZXZOGF EOHITK EQF QEZXQSSN WT LTTF QL Q UTFTKQSOLQZOGF GY ZIT EQTLQK EOHITK. XLXQSSN, ZIT DTZIGR GY YKTJXTFEN QFQSNLOL OL Q UGGR VQN ZG QZZQEA LXEI EOHITKL. {GYY_ZG_Q_UKTQZ_LZQKZ}
+
+The final solution is - 
+THIS SUBSTITUTION CIPHER CAN ACTUALLY BE SEEN AS A GENERALISATION OF THE CAESAR CIPHER. USUALLY, THE METHOD OF FREQUENCY ANALYSIS IS A GOOD WAY TO ATTACK SUCH CIPHERS. {OFF_TO_A_GREAT_START}
