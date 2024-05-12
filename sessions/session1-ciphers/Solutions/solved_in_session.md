@@ -34,7 +34,7 @@ def oracle(text):
     sh.recvline()
     return int(sh.recvline().decode())
 
-known = "picoCTF{sheriff_you"
+known = "picoCTF{"
 
 length = oracle(known)
 print(known, end="")
@@ -49,3 +49,6 @@ while current != "}":
             break
 
 ```
+
+You may face disconnection issues, so you can run the code again but this time, you can add on the new characters you found out.<br>
+The flag obtained was `picoCTF{sheriff_you_solved_the_crime}`.
