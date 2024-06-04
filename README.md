@@ -26,3 +26,4 @@ The resources to use are added in the <a href="https://github.com/databasedIISc/
 
 1. All_in_all.md - To see the a big list of all possible resources.
 2. Tools-used-in-sessions.md - To see the tools used in the sessions.
+3. Refer this website for a lot of tips and tricks: https://book.hacktricks.xyz
